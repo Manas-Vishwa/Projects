@@ -1,4 +1,4 @@
-n = int(input("Enter:"))
+n = int(input("Enter number till where you want Fib series:"))
 def Fib(n):
     a = 0
     b = 1
@@ -10,7 +10,3 @@ def Fib(n):
         a = b
         b = c
 Fib(n)
-
-# Fib using recurssion
-
-        
